@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 
 public class RecyclerViewActivity extends ActionBarActivity {
@@ -28,11 +28,13 @@ public class RecyclerViewActivity extends ActionBarActivity {
         mRecyclerView.setLayoutManager(mLayoutManager);
 
         // specify an adapter (see also next example)
-        List<MyAdapter.Item> itemList = Arrays.asList(new MyAdapter.Item("1", "world"), new MyAdapter.Item("2", "world"),
-                new MyAdapter.Item("3", "world"), new MyAdapter.Item("4", "world"), new MyAdapter.Item("5", "world"));
+        List<MyAdapter.Item> itemList = new ArrayList<MyAdapter.Item>();
+        for (int i = 0; i < 100; i++)
+            itemList.add(new MyAdapter.Item("Item " + i, "world"));
         mAdapter = new MyAdapter(itemList);
         mRecyclerView.setAdapter(mAdapter);
         //  mRecyclerView.setO
+        //    mRecyclerView.set
 
     }
 
