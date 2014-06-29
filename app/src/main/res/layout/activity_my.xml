@@ -8,13 +8,34 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MyActivity">
 
-    <ImageView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
+        android:text="CardView"
+        android:id="@+id/bt_card"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="282dp"
-        android:src="@drawable/sample1" />
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView"
+        android:id="@+id/bt_recycler_view"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/bt_card"
+        android:layout_alignRight="@+id/bt_card"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Palette Sample"
+        android:id="@+id/palette"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/bt_recycler_view"
+        android:layout_alignEnd="@+id/bt_recycler_view" />
 </RelativeLayout>

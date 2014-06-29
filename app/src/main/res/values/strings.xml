@@ -6,5 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_card">Sample Card</string>
     <string name="title_activity_recycler_view">Recycler View</string>
+    <string name="title_activity_image_list">ImageListActivity</string>
+    <string name="title_activity_image_detail">ImageDetailActivity</string>
 
 </resources>

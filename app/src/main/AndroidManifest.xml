@@ -24,6 +24,14 @@
             android:name=".RecyclerViewActivity"
             android:label="@string/title_activity_recycler_view" >
         </activity>
+        <activity
+            android:name=".ImageListActivity"
+            android:label="@string/title_activity_image_list" >
+        </activity>
+        <activity
+            android:name=".ImageDetailActivity"
+            android:label="@string/title_activity_image_detail" >
+        </activity>
     </application>
 
 </manifest>
