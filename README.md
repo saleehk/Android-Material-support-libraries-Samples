@@ -6,4 +6,4 @@ Sample code for
 -Palette (android.support.v7.graphics.Palette)
 Screen shots
 ------
-![alt tag](https://raw.githubusercontent.com/saleeh93/Android-Material-support-libraries-Samples/master/screenshots/ss1.png)
+![alt tag](https://raw.githubusercontent.com/saleeh93/Android-Material-support-libraries-Samples/master/screen/ss1.png)
