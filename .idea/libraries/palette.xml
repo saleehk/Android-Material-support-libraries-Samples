@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="palette">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/palette.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
