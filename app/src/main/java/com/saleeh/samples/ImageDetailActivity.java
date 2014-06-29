@@ -28,6 +28,7 @@ public class ImageDetailActivity extends ActionBarActivity {
 
         TextView name = (TextView) findViewById(R.id.textview_name);
         if (item != null) {
+            getSupportActionBar().setTitle(item.getName());
             image.setImageResource(item.image);
             name.setText(item.getName());
             Bitmap bm = BitmapFactory.decodeResource(getResources(), item.image);
